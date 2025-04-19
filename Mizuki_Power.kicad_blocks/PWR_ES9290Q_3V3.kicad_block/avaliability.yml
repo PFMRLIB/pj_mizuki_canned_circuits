@@ -1,0 +1,12 @@
+# Part availablity status
+# Apr 12 2025
+
+# 3.3V LDO TPS7A2033
+TPS7A2033:
+ - TPS7A2033PDBV:
+   Package: SOT-23-5
+   ECCN: EAR99
+   Fab Locations:
+    - Richardson, US
+    - Sherman, US
+   Vulnerability: High

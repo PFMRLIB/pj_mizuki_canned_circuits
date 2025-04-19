@@ -1,0 +1,13 @@
+# Part availablity status
+# Apr 12 2025
+
+# NVDC charger MP2722
+MP2722:
+ - MP2722GRH-xxxx-Z:
+   Package: QFN-22
+   ECCN: EAR99
+   Fab Locations:
+    - Unknown
+   Vulnerability: Low     # Due to MPS in China
+
+

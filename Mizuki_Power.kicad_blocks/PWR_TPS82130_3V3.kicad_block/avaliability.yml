@@ -1,0 +1,13 @@
+# Part availablity status
+# Apr 12 2025
+
+# Sync buck module TPS82130
+TPS82130:
+ - TPS82130SIL:
+   Package: USIP-8-EP
+   ECCN: EAR99
+   Fab Locations:
+    - Richardson, US
+    - Miho, JP
+   Vulnerability: Medium
+

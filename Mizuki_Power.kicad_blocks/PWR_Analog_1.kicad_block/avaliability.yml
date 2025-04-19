@@ -1,0 +1,39 @@
+# Part availablity status
+# Apr 12 2025
+
+# Non-sync boost converter TLV61048
+TLV61048:
+ - TLV61048DBV:
+   Package: SOT-23
+   ECCN: EAR99
+   Fab Locations:
+    - Richardson, US
+    - Miho, JP
+   Vulnerability: Medium
+
+# Buck converter TLV61048
+TPS62160:
+ - TPS62160DGK:
+   Package: VSSOP-8
+   ECCN: EAR99
+   Fab Locations:
+    - Richardson, US
+    - Miho, JP
+   Vulnerability: Medium
+ - TPS62160DSG:         # Current used
+   Package: WSON-8-EP
+   ECCN: EAR99
+   Fab Locations:
+    - Richardson, US
+    - Miho, JP
+   Vulnerability: Medium
+
+# Positive 1A LDO TPS7A47
+TPS7A4701:
+ - TPS7A4701RGW:
+   Package: VQFN-20-EP
+   ECCN: EAR99
+   Fab Locations:
+    - Freising, DE
+    - Miho, JP
+   Vulnerability: Low

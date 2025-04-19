@@ -1,0 +1,61 @@
+# Part availablity status
+# Apr 12 2025
+
+# Single FET input audio op-amp OPA1655
+OPA1655:
+ - OPA1655DBVR:
+   Package: SOT-23
+   ECCN: EAR99
+   Fab Locations:
+    - Richardson, US
+    - Aizuwakamatsu, JP
+   Vulnerability: Medium
+ - OPA1655DR:
+   Package: SOIC-8
+   ECCN: EAR99
+   Fab Locations:
+    - Richardson, US
+    - Aizuwakamatsu, JP
+   Vulnerability: Medium
+
+# Full differential audio opamp OPA1632, OPA1633, OPA1637 
+OPA1632:
+ - OPA1632DR:
+   Package: SOIC-8
+   ECCN: EAR99
+   Fab Locations:
+    - Dallas, US
+    - Freising, DE
+   Vulnerability: Medium
+ - OPA1632DGNR:
+   Package: VSSOP8-EP
+   ECCN: EAR99
+   Fab Locations:
+    - Dallas, US
+    - Freising, DE
+   Vulnerability: Medium
+
+OPA1633:
+ - OPA1633DR:
+   Package: SOIC-8
+   ECCN: EAR99
+   Fab Locations:
+    - Freising, DE
+    - Miho, JP
+   Vulnerability: Low
+ - OPA1633DGNR:
+   Package: VSSOP8-EP
+   ECCN: EAR99
+   Fab Locations:
+    - Freising, DE
+    - Miho, JP
+   Vulnerability: Low
+
+OPA1637:
+ - OPA1637DGKR:
+   Package: VSSOP8-EP
+   ECCN: EAR99
+   Fab Locations:
+    - Freising, DE
+    - Miho, JP
+   Vulnerability: Low
