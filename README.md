@@ -20,13 +20,18 @@ There are the circuit modules used in Project Mizuki. Some of them has been phys
 | Name | Description | Verified? |
 |---|---|---|
 | `FLASH_QSPI_W25Q128` | W25Q128 QSPI flash | Yes |
+| `FLASH_OSPI_IS25xX` | IS25(W/L)* OSPI flash | No |
 | `OSC_24576_Audio_Clock` | 24.576MHz clock with YXC OT3225 series oscillator | Yes |
 | `RAM_OSPI_S27KL064` | Infineon S27KL064 PSRAM | No |
+| `RAM_HB_W958D8` | W958D8 HyperBus PSRAM | No |
 | `RST_STM32` | STM32 reset | Yes |
 | `SDCard_4bit` | SDCard 4-bit mode, 3.3V only (DH/HS only) | No |
+| `SDCard_4bit_Protected` | SDCard 4-bit mode, 3.3V only (DH/HS only) w/ ESD protected | No |
 | `SPILCD_with_TOUCH` | ILI9341 SPI LCD with resistive touch | No | 
-| `STDC14` | STDC14 interface | Yes, but needs to be updated |
+| `DBG_STDC14` | STDC14 interface | Yes, but needs to be updated |
+| `DBG_STDC14_Protected` | STDC-14 ST-Link debug interface w/ ESD protected, updated version of `DBG_STDC14` | No |
 | `XTAL_8MHZ` | 8MHz crystal circuit | Yes, but needs to be updated |
+| `XTAL_8MHZ_with_adjustment` | XTAL circuit w/ external additional feedback and current limit resistor, updated version of `XTAL_8MHZ` | No |
 
 ### 3. `Mizuki_Power`
 | Name | Description | Verified? |
